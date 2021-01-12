@@ -1,7 +1,7 @@
 {
-  "name": "my-proxy",
-  "version": "1.0.0",
-  "description": "",
+  "name": "http-proxy-http",
+  "version": "0.0.1",
+  "description": "Used for studies only",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,7 @@
     "dev": "fastify start -w -l info -P app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raphael Carloni Benzi",
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.9.2",
@@ -24,5 +24,13 @@
   },
   "devDependencies": {
     "tap": "^14.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzispawn/node-app-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benzispawn/node-app-http/issues"
+  },
+  "homepage": "https://github.com/benzispawn/node-app-http#readme"
 }
